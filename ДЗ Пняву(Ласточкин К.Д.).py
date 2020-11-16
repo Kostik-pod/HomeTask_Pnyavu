@@ -30,7 +30,7 @@ with open('Sortlist.txt', 'w') as file:
         if porog[i] in clas11:
             file.write(porog[i][0] + ',11,' + str(porog[i][1]) + '\n')
     file.write('\n')
-    file.write('Порог не перешли\n')
+    file.write('Порог не перешли:\n')
     for i in range(len(neporog)):
         if neporog[i] in clas10:
             file.write(neporog[i][0] + ',10,' + str(neporog[i][1]) + '\n')
